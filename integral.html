@@ -1,0 +1,64 @@
+<!-- by Roya Shahroudi & Yasamin Tavakoli -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="./image/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <a href="index.html"><button id="back" class="btn btn-secondary"><i class="fas fa-arrow-left"> Back</i></button></a>
+    <div id="mainDiv2">
+        <h1 class="title">Big Calculator</h1>
+
+        <label>please input your data:</label>
+
+        <div id="div-x">
+            <input type="text" class="in x" placeholder="x^9" id="degree9">
+            <input type="text" class="in x" placeholder="x^8" id="degree8">
+            <input type="text" class="in x" placeholder="x^7" id="degree7">
+            <input type="text" class="in x" placeholder="x^6" id="degree6">
+            <input type="text" class="in x" placeholder="x^5" id="degree5">
+            <input type="text" class="in x" placeholder="x^4" id="degree4">
+            <input type="text" class="in x" placeholder="x^3" id="degree3">
+            <input type="text" class="in x" placeholder="x^2" id="degree2">
+            <input type="text" class="in x" placeholder="x^1" id="degree1">
+            <input type="text" class="in x" placeholder="x^0" id="degree0">
+        </div>
+
+
+
+        <input type="text" class="in" placeholder="top" id="top">
+        <input type="text" class="in" placeholder="bottom" id="bottom">
+        <div id="showcoff"></div>
+
+
+        <div id="twoBtn">
+
+            <button class="btn btn-primary mb-2" type="submit2" id="submit2">Calculate</button>
+            <a href="./integral.html"><button type="button" class="btn btn-outline-warning" id="refresh">Refresh</button></a>
+        </div>
+
+        <div id="result-div">
+            <h4 name="result">Result:</h4>
+            <label for="result"></label>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script type="text/javascript" src="js/integral.js"></script>
+</body>
+
+</html>

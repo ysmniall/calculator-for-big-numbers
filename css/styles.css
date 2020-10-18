@@ -1,0 +1,117 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-color: rgb(132, 182, 190);
+}
+
+#back {
+    position: absolute;
+    margin: 20px 10px;
+}
+
+
+/* ------- index ------- */
+
+#mainDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30vh;
+    margin-left: 40vw;
+    /* border: 1px solid black; */
+}
+
+#main-manu {
+    margin-top: 20px;
+}
+
+#main-manu button:first-child {
+    margin-right: 20px;
+}
+
+
+/* ------ basic operations ------ */
+
+#mainDiv2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 25vw;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.title {
+    /* border: 1px solid black; */
+    color: rgb(0, 70, 110);
+}
+
+#firstInput,
+#secondInput {
+    /* width: 400px; */
+    height: 40px;
+    margin: 10px 30px;
+    font-size: 19px;
+    border: none;
+    border-radius: 1em;
+}
+
+.btn-group {
+    margin: 20px 35%;
+}
+
+#twoBtn {
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px;
+}
+
+button[type="submit"] {
+    /* margin: 30px 40px; */
+    margin-right: 10%;
+}
+
+#result-div {
+    opacity: 0;
+    margin-top: 30px;
+}
+
+#result-div h4,
+#result-div label {
+    margin: 10px 10px;
+}
+
+#result-div label {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(7, 101, 129);
+}
+
+
+/* ------ integral ------ */
+
+.in {
+    /* width: 400px; */
+    height: 40px;
+    margin: 10px 0;
+    font-size: 19px;
+    border: none;
+    border-radius: 1em;
+}
+
+#div-x {
+    float: left;
+}
+
+.x {
+    width: 9%;
+}
+
+#submit2 {
+    margin-right: 70px;
+}

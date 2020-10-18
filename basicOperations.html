@@ -1,0 +1,60 @@
+<!-- by Roya Shahroudi & Yasamin Tavakoli -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="./image/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <a href="index.html"><button id="back" class="btn btn-secondary"><i class="fas fa-arrow-left"> Back</i></button></a>
+    <div id="mainDiv2">
+        <h1 class="title">Big Calculator</h1>
+        <span>First: </span><input type="text" id="firstInput">
+
+        <div class="btns">
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-info active">
+                      <input type="radio" name="options" id="addition" autocomplete="off" checked> +
+                    </label>
+                <label class="btn btn-info">
+                      <input type="radio" name="options" id="subtraction" autocomplete="off"> -
+                    </label>
+                <label class="btn btn-info">
+                      <input type="radio" name="options" id="multiplication" autocomplete="off"> x
+                    </label>
+                <label class="btn btn-info">
+                        <input type="radio" name="options" id="division" autocomplete="off"> /
+                    </label>
+            </div>
+
+        </div>
+
+        <span>Second:</span><input type="text" id="secondInput">
+        <div id="twoBtn">
+            <button class="btn btn-primary mb-2" type="submit" id="submit">Calculate</button>
+            <a href="./basicOperations.html"><button type="button" class="btn btn-outline-warning" id="refresh">Refresh</button></a>
+        </div>
+
+        <div id="result-div">
+            <h4 name="result">Result:</h4>
+            <label for="result"></label>
+        </div>
+
+    </div>
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- <script src="js/integral.js"></script> -->
+</body>
+
+</html>
